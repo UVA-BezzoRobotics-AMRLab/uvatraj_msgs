@@ -1,0 +1,8 @@
+# Request
+geometry_msgs/Point goal
+---
+# Response
+bool success
+string status_message
+uvatraj_msgs/ControlPoint[] all_ctrl_pts
+uvatraj_msgs/ControlPoint[] boundary_ctrl_pts
