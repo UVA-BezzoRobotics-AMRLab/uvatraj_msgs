@@ -18,6 +18,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   RequestTraj.srv
+  ExecuteTraj.srv
 )
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs trajectory_msgs)
