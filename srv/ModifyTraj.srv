@@ -1,0 +1,6 @@
+# Request
+uvatraj_msgs/ControlPoint[] ctrl_pts
+---
+# Response
+bool success
+string status_message

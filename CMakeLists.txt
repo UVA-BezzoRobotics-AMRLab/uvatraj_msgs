@@ -18,6 +18,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   RequestTraj.srv
+  ModifyTraj.srv
   ExecuteTraj.srv
 )
 
